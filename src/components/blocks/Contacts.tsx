@@ -7,7 +7,7 @@ import { ReactComponent as TelegramLogo } from "../../static/icons/telegram.svg"
 import { ReactComponent as MailLogo } from "../../static/icons/mail.svg";
 
 const SectionWrapper = styled.section`
-  height: 100vh;
+  height: calc(100vh - 64px);
   min-height: 500px;
   background: ${(props) => props.theme.colors.sectionBg};
 
